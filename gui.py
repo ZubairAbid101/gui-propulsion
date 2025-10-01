@@ -13,12 +13,10 @@ import ttkbootstrap as tb
 # Sensor Imports
 #from sensors.ESC import cut_throttle, restart_throttle
 #from sensors.servos import set_servo_angle, toggle_choke
-#from sensors.temp_and_rpm import read_temp
-#from sensors.rpm_try import read_rpm
-#from sensors.load_cell_try import read_load_cells
-#from sensors.flow_try import read_flow
-#from sensors.killit import activate_kill_switch
-#from sensors.rpm_average import read_rpm
+#from sensors.temp import read_temp
+#from sensors.rpm import read_rpm
+#from sensors.load_cell import read_load_cells
+#from sensors.flow import read_flow
 
 # Read all sensor values (mock implementation)
 def read_sensors():
