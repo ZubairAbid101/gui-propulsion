@@ -37,6 +37,24 @@ def read_sensors():
     }
     return sensor_values
 
+# Read all sensor values (real implementation)
+'''
+def read_sensors():
+    temp_dict = read_temp()
+    rpm_dict = read_rpm()
+    load_cell_dict = read_load_cells()
+    flow_dict = read_flow()
+
+    return {
+        "Temperature": temp_dict['target_temp'],
+        "RPM": rpm_dict['rpm'],
+        "Load Cell 1": load_cell_dict['Load Cell 1 (Raw)'],
+        "Load Cell 2": 0,
+        "grams_per_min": flow_dict['grams_per_min'],
+        "liters_per_min": flow_dict['liters_per_min']
+    }
+'''
+    
 class SensorGUI:
     def __init__(self, root):
         self.root = root
