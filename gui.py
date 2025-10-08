@@ -49,7 +49,7 @@ def read_sensors():
         "Temperature": temp_dict['target_temp'],
         "RPM": rpm_dict['rpm'],
         "Load Cell 1": load_cell_dict['Load Cell 1 (Raw)'],
-        "Load Cell 2": 0,
+        "Load Cell 2": load_cell_dict['Load Cell 2 (Raw)'],
         "grams_per_min": flow_dict['grams_per_min'],
         "liters_per_min": flow_dict['liters_per_min']
     }
